@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SpaceBattle</string>
+    <string name="user_name">用户名</string>
+    <string name="server_name">服务器</string>
+</resources>

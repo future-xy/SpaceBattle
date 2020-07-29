@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape">
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="60dp"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/user_name" />
+
+
+    <TextView
+        android:id="@+id/serverText"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameText"
+        android:textSize="18sp"
+        android:layout_alignStart="@id/nameText"
+        android:layout_marginTop="40dp"
+        android:text="@string/server_name" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/nameText"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/nameText"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="150dp"
+        android:layout_alignStart="@id/editTextNumber"
+        android:layout_alignTop="@id/serverText"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>
